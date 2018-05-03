@@ -1,0 +1,60 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  font-family: 'Titan One', cursive;
+  background-color: #222;
+  font-size: 34px;
+  height: 150px;
+  padding: 20px;
+  color: rgb(38, 179, 38);
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  position: relative;
+  text-align: left;
+  padding-top: 30px;
+  margin-left: 100px;
+  font-family: "Arial", cursive;
+  font-size: 15px;
+  color: rgb(30, 56, 30);
+}
+.feat {
+  position: absolute;
+  align-content: left;
+  margin-left: -30px;
+  width: 350px;
+  height: 250px;
+}
+.list-group-item {
+  position: relative;
+  text-align: left;
+  margin-left: -30px;
+  width: 30%;
+  font-family: "Arial", cursive;
+  font-size: 20px;
+  color: rgb(30, 56, 30);
+}
+.list {
+  margin-top: 250px;
+}
+.trailName {
+  width: 25%;
+}
+.trailDesc {
+  width: 25%;
+}
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
